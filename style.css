@@ -1,0 +1,54 @@
+.bg-camera {
+  height: 700px;
+  background-image: url(https://img.freepik.com/free-photo/high-angle-shot-lens-headphones-gimbal-phone_181624-43878.jpg?w=996&t=st=1708107186~exp=1708107786~hmac=f72b40e945574d6e9efe6c5a609d8a4119b6c31b55478bd1b49a731ef115336b);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-camera {
+    height: 450px;
+    background-image: url(https://img.freepik.com/free-photo/high-angle-shot-lens-headphones-gimbal-phone_181624-43878.jpg?w=996&t=st=1708107186~exp=1708107786~hmac=f72b40e945574d6e9efe6c5a609d8a4119b6c31b55478bd1b49a731ef115336b);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .reliable {
+    height: 300px;
+    width: 35%;
+  }
+  .font {
+    font-size: 25px;
+  }
+  .font1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .bg-camera {
+    height: 250px;
+    background-image: url(https://img.freepik.com/free-photo/high-angle-shot-lens-headphones-gimbal-phone_181624-43878.jpg?w=996&t=st=1708107186~exp=1708107786~hmac=f72b40e945574d6e9efe6c5a609d8a4119b6c31b55478bd1b49a731ef115336b);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .reliable {
+    height: auto;
+  }
+  .font {
+    font-size: 15px;
+  }
+  .font1 {
+    font-size: 10px;
+  }
+}
+.reliable {
+  height: 400px;
+  width: 40%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+  .reliable {
+    height: 400px;
+    width: 40%;
+  }
+}
